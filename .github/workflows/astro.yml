@@ -27,9 +27,9 @@ concurrency:
 env:
   BUILD_PATH: "./astro" # default "."
 
-defaults:
-  run:
-    working-directory: ./astro
+#defaults:
+#  run:
+#    working-directory: ./astro
 
 jobs:
   build:
