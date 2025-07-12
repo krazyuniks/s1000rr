@@ -28,9 +28,9 @@ env:
   BUILD_PATH: "astro" # default "."
   # BUILD_PATH: subfolder
 
-defaults:
-  run:
-    working-directory: astro
+# defaults:
+#   run:
+#     working-directory: astro
 
 jobs:
   build:
