@@ -71,6 +71,7 @@ jobs:
         working-directory: ${{ env.BUILD_PATH }}
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Astro
+        working-directory: ${{ env.BUILD_PATH }}
         run: |
           ${{ steps.detect-package-manager.outputs.runner }} astro build \
             --site "${{ steps.pages.outputs.origin }}" \
