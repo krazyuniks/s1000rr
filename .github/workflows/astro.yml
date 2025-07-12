@@ -24,8 +24,8 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-#env:
-#  BUILD_PATH: "." # default "."
+env:
+  BUILD_PATH: "./astro" # default "."
 
 defaults:
   run:
