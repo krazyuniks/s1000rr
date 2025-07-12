@@ -5,6 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://krazyuniks.github.io/s1000rr',
+  base: 's1000rr/',
   integrations: [
     starlight({
       title: 'My Docs',
